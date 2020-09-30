@@ -7,8 +7,82 @@ body {
     color: #fff;
     background: #000;
 }
+
+header {
+    background: #666;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    font-size: 20px;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+article {
+    padding: 3rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cougar {
+    background: #FFD5AE;
+}
+
+#lion {
+    background: #B26219;
+}
+
+#tiger {
+    background: #FFBD82;
+}
+
+section {
+    max-width: 600px;
+}
+
+.text {
+    color: #000;
+    background: #fff;
+    padding: 2rem;
+    font-size: 18px;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+
+.text h2 {
+    text-align: center;
+}
+
 img {
     max-width: 100%; /* DO NOT delete or change this line */
+}
+
+.photo p {
+    color: #000;
+}
+
+footer {
+    background: #666;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 2rem
+
 }
 
 /* ----- SUGGESTED COLORS -----
@@ -36,7 +110,23 @@ img {
 
 a {
     color: #379CB2;
+    text-decoration: none;
+    text-transform: uppercase;
 }
+
+header a {
+  color: #78c9d9
+}
+
+article a {
+    color: #2b7b8c;
+}
+
+
+#lion a {
+    color: #113336;
+}
+
 a:hover {
     color: #82E8FF;
 }
